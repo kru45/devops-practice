@@ -8,18 +8,11 @@ print(greet("DevOps Beginner"))
 print("Sum:", add(5, 3))
 
 def greet(name):
-    return f"Hello, {name}!!!"
-
-def welcome(name):
-    return f"Welcome, {name}"
+    return f"Hello, {name}"
 
 def main():
-    print("Welcome App")
-
     name = input("Enter your name: ")
-    message = welcome(name)
-
-    print(message)
+    print(greet(name))
 
 if __name__ == "__main__":
     main()
