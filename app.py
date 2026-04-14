@@ -8,4 +8,4 @@ print(greet("DevOps Beginner"))
 print("Sum:", add(5, 3))
 
 def greet(name):
-    return f"Hello, {name}! Hope you are having a great day!"
+    return f"Hello, {name}!!!"
